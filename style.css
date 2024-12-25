@@ -1,0 +1,72 @@
+img {
+    height: 200px;
+    object-fit: contain;
+}
+
+div {
+    clear: both;
+}
+
+.left {
+    float: left;
+    height: 250px;
+    margin: 10px 20px 20px 20px;
+}
+
+.right {
+    float: right;
+    height: 250px;
+    margin: 10px 0 20px 20px;
+}
+
+.center {
+    width: 50%;
+    margin: 10px 0 20px 0;
+    margin-left: 25%;
+}
+
+p {
+    margin: 10px 0 0 0;
+    padding: 10px
+}
+
+body {
+    background-color: aquamarine;
+}
+
+footer {
+    clear: both;
+    text-align: center;
+}
+
+hr {
+    clear: both;
+}
+
+.small {
+    width: 40%;
+}
+
+.engaged {
+    display: block;
+    width: 40%;
+    margin-left: 30%
+}
+
+.party {
+    width: 30%;
+}
+
+.collage {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 200px 200px;
+    gap:10px;
+    object-fit: fill;
+}
+
+.block {
+    margin-top: 30px;
+    display: block;
+}
+
